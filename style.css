@@ -378,6 +378,7 @@ div
     cursor: pointer;
     color: #001E50;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .button:hover {
@@ -405,6 +406,7 @@ div
 
     body{
         overflow-x: hidden;
+        white-space: nowrap;
     }
 
     img{
@@ -591,6 +593,7 @@ div
         cursor: pointer;
         color: #001E50;
         font-size: 18px;
+        font-weight: bold;
     }
 
 
@@ -611,6 +614,7 @@ div
 
     body {
         overflow-x: hidden;
+        white-space: nowrap;
     }
 
     img {
@@ -705,7 +709,7 @@ div
     }
 
     .couch {
-        top: 1150px;
+        top: 1200px;
         left: 80px;
         font-size: 15px;
     }
@@ -718,8 +722,8 @@ div
 
     .accordion .accordion-item .accordion-title {
         font-size: 11px;
-        top: 2700px;
-        left: -770px;
+        top: 2600px;
+        left: -740px;
     }
 
     .accordion .accordion-item .accordion-content {
@@ -788,14 +792,15 @@ div
 
     .button {
         position: relative;
-        top: 1350px;
-        left: 137px;
+        top: 1330px;
+        left: 170px;
         border-radius: 100px;
         width: 35%;
         padding: 8px 20px;
         cursor: pointer;
         color: #001E50;
         font-size: 13px;
+        font-weight: bold;
     }
 
 
