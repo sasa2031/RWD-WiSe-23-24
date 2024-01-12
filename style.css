@@ -411,7 +411,6 @@ div
 
     img{
         max-width: 100%;
-        white-space: nowrap;
         overflow-x: hidden;
     }
 
@@ -583,7 +582,6 @@ div
         max-width: 100%;
         height: auto;
         left: 15px;
-        white-space: nowrap;
         overflow-x: hidden;
     }
 
@@ -605,7 +603,6 @@ div
         top: 1500px;
         left: 5px;
         max-width: 100%;
-        white-space: nowrap;
         overflow-x: hidden;
     }
 
@@ -624,7 +621,6 @@ div
 
     img {
         max-width: 100%;
-        white-space: nowrap;
         overflow-x: hidden;
     }
 
@@ -794,7 +790,6 @@ div
         top: 1400px;
         max-width: 100%;
         left: -4px;
-        white-space: nowrap;
         overflow-x: hidden;
     }
 
@@ -816,7 +811,6 @@ div
         top: 1500px;
         left: -25px;
         max-width: 100%;
-        white-space: nowrap;
         overflow-x: hidden;
     }
 
