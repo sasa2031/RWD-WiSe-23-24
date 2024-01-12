@@ -402,7 +402,7 @@ div
 
 /*Mobile-Verson #1*/
 
-@media screen and (min-width: 350px) and (max-width: 430px) {
+@media screen and (max-width: 350px) {
 
     body{
         overflow-x: hidden;
@@ -612,7 +612,7 @@ div
     
 /*Mobile-Verson #2*/
 
-@media screen and (min-width: 430px) and (max-width: 601px) {
+@media screen and (max-width: 430px) {
 
     body {
         overflow-x: hidden;
