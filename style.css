@@ -406,17 +406,17 @@ div
 
     body{
         overflow-x: hidden;
-        white-space: nowrap;
+        
     }
 
     img{
-        max-width: 115%;
-
+        max-width: 100%;
+        white-space: nowrap;
         overflow-x: hidden;
     }
 
     #logo{
-        max-width: 115%;
+        max-width: 100%;
 
         overflow-x: hidden;
     }
@@ -479,8 +479,10 @@ div
     }
 
     #IQ-bild {
-        left: -22px;
-        max-width: 130%;
+        left: 35px;
+        max-width: 100%;
+        white-space: nowrap;
+        overflow-x: hidden;
         top: 520px;
     }
 
@@ -497,7 +499,7 @@ div
     }
 
     #aufzug {
-        left: -2px;
+        left: 30px;
         top: 540px;
     }
 
@@ -515,7 +517,7 @@ div
 
     .accordion .accordion-item .accordion-title {
         font-size: 14px;
-        top: 2750px;
+        top: 3060px;
         left: -750px;
     }
 
@@ -566,9 +568,9 @@ div
 
     .carousel img {
         height: 430px;
-        max-width: 160%;
+        max-width: 150%;
         object-fit: cover;
-        left: 500px;
+        left: 1500px;
     }
 
     .carousel-buttons {
@@ -578,29 +580,32 @@ div
 
     #showroom {
         top: 1400px;
-        max-width: 240%;
-        left: -200px;
+        max-width: 100%;
+        height: auto;
+        left: 15px;
+        white-space: nowrap;
         overflow-x: hidden;
     }
 
     .button {
         position: relative;
-        top: 1320px;
-        left: 127px;
+        top: 1360px;
+        left: 145px;
         border-radius: 100px;
-        width: 55%;
-        padding: 8px 30px;
+        width: 28%;
+        padding: 5px 12px;
         cursor: pointer;
         color: #001E50;
-        font-size: 18px;
+        font-size: 11px;
         font-weight: bold;
     }
 
 
     #footer {
         top: 1500px;
-        left: -45px;
-        max-width: 160%;
+        left: 5px;
+        max-width: 100%;
+        white-space: nowrap;
         overflow-x: hidden;
     }
 
@@ -614,12 +619,12 @@ div
 
     body {
         overflow-x: hidden;
-        white-space: nowrap;
+      
     }
 
     img {
         max-width: 100%;
-
+        white-space: nowrap;
         overflow-x: hidden;
     }
 
@@ -706,6 +711,7 @@ div
     #aufzug {
         left: -7px;
         top: 540px;
+        white-space: nowrap;
     }
 
     .couch {
@@ -722,8 +728,8 @@ div
 
     .accordion .accordion-item .accordion-title {
         font-size: 11px;
-        top: 2600px;
-        left: -740px;
+        top: 2870px;
+        left: -770px;
     }
 
     .accordion .accordion-item .accordion-content {
@@ -786,20 +792,22 @@ div
 
     #showroom {
         top: 1400px;
-        max-width: 170%;
-        left: -165px;
+        max-width: 100%;
+        left: -4px;
+        white-space: nowrap;
+        overflow-x: hidden;
     }
 
     .button {
         position: relative;
-        top: 1330px;
-        left: 170px;
+        top: 1360px;
+        left: 160px;
         border-radius: 100px;
-        width: 35%;
-        padding: 8px 20px;
+        width: 25%;
+        padding: 8px 10px;
         cursor: pointer;
         color: #001E50;
-        font-size: 13px;
+        font-size: 11px;
         font-weight: bold;
     }
 
@@ -807,7 +815,9 @@ div
     #footer {
         top: 1500px;
         left: -25px;
-        max-width: 120%;
+        max-width: 100%;
+        white-space: nowrap;
+        overflow-x: hidden;
     }
 
 }
