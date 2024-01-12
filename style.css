@@ -371,12 +371,12 @@ div
 .button {
     position: relative;
     top: 440px;
-    left: 624px;
+    left: 635px;
     border-radius: 100px;
     width: 18%;
     padding: 16px 30px;
     cursor: pointer;
-    color: 001E50;
+    color: #001E50;
     font-size: 20px;
 }
 
@@ -397,6 +397,215 @@ div
     top: 650px;
     left: -5px;
 }
+
+
+/*Mobile-Verson #1*/
+
+@media screen and (min-width: 350px) and (max-width: 430px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    img{
+        max-width: 115%;
+
+        overflow-x: hidden;
+    }
+
+    #logo{
+        max-width: 115%;
+
+        overflow-x: hidden;
+    }
+
+    .titel {
+        top: 15px;
+        font-size: 25px;
+        left: 15px;
+    }
+
+    #linie {
+        top: 10px;
+    }
+
+    p {
+        font-size: 18px;
+        left: 20px;
+    }
+
+    #materialien {
+        width: 50%;
+        left: 12px;
+    }
+
+    #maße {
+        width: 50%;
+        left: 200px;
+        top: 54px;
+    }
+
+    #gewicht {
+        width: 50%;
+        top: 100px;
+        left: 13px;
+    }
+
+    #pflege {
+        width: 50%;
+        top: 23px;
+        left: 200px;
+    }
+
+    div {
+        font-size: 23px;
+        left: 110px;
+        top: 250px;
+    }
+
+    .Character {
+        display: block;
+        font-size: 13px;
+        left: 40px;
+        top: 300px;
+    }
+
+    #IQ-headline {
+        font-size: 21px;
+        left: 90px;
+        top: 500px;
+    }
+
+    #IQ-bild {
+        left: -22px;
+        max-width: 130%;
+        top: 520px;
+    }
+
+    .couch-headline {
+        top: 750px;
+        left: 90px;
+        font-size: 23px;
+    }
+
+    .couch-headline2 {
+        top: 701px;
+        left: 210px;
+        font-size: 23px;
+    }
+
+    #aufzug {
+        left: -2px;
+        top: 540px;
+    }
+
+    .couch {
+        top: 1210px;
+        left: 50px;
+        font-size: 18px;
+    }
+
+    #aufzählung {
+        width: 107%;
+        top: 900px;
+        left: 30px;
+    }
+
+    .accordion .accordion-item .accordion-title {
+        font-size: 14px;
+        top: 2750px;
+        left: -750px;
+    }
+
+    .accordion .accordion-item .accordion-content {
+        top: 2420px;
+        left: -700px;
+        font-size: 5px;
+    }
+
+    .accordion .accordion-item .accordion-content .accordion-img {
+        top: 310px;
+        left: 90px;
+        width: 50%;
+    }
+
+    .accordion .accordion-item .accordion-content .accordion-img2{
+        top: 50px;
+        width: 42%;
+    }
+
+    #ausstattungen {
+        font-size: 23px;
+        top: 1260px;
+        left: 45px;
+    }
+
+    .carousel {
+        top: 1150px;
+        left: 50px;
+        height: 100%;
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+
+    .carousel-container {
+        display: flex;
+        overflow: hidden;
+        left: -150px;
+        width: 250%;
+    }
+
+    .carousel-item {
+        flex: 0 0 20%;
+        left: 140px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .carousel img {
+        height: 430px;
+        max-width: 160%;
+        object-fit: cover;
+        left: 500px;
+    }
+
+    .carousel-buttons {
+        top: 1080px;
+        left: 40px;
+    }
+
+    #showroom {
+        top: 1400px;
+        max-width: 240%;
+        left: -200px;
+        overflow-x: hidden;
+    }
+
+    .button {
+        position: relative;
+        top: 1320px;
+        left: 127px;
+        border-radius: 100px;
+        width: 55%;
+        padding: 8px 30px;
+        cursor: pointer;
+        color: #001E50;
+        font-size: 18px;
+    }
+
+
+    #footer {
+        top: 1500px;
+        left: -45px;
+        max-width: 160%;
+        overflow-x: hidden;
+    }
+
+
+    
+}
+    
+/*Mobile-Verson #2*/
 
 @media screen and (min-width: 430px) and (max-width: 601px) {
 
@@ -427,7 +636,7 @@ div
     }
 
     p {
-        font-size: 10px;
+        font-size: 14px;
         left: 15px;
     }
 
@@ -479,15 +688,15 @@ div
     }
 
     .couch-headline {
-        top: 700px;
+        top: 750px;
         left: 100px;
-        font-size: 17px;
+        font-size: 20px;
     }
 
     .couch-headline2 {
-        top: 663px;
-        left: 196px;
-        font-size: 17px;
+        top: 707px;
+        left: 210px;
+        font-size: 20px;
     }
 
     #aufzug {
@@ -526,7 +735,6 @@ div
     }
 
     
-
     .accordion .accordion-item .accordion-content .accordion-img2{
         top: 50px;
         width: 42%;
@@ -572,23 +780,21 @@ div
         left: 40px;
     }
 
-
-
     #showroom {
         top: 1400px;
         max-width: 170%;
-        left: -140px;
+        left: -165px;
     }
 
     .button {
         position: relative;
         top: 1350px;
-        left: 150px;
+        left: 137px;
         border-radius: 100px;
         width: 35%;
         padding: 8px 20px;
         cursor: pointer;
-        color: 001E50;
+        color: #001E50;
         font-size: 13px;
     }
 
