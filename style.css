@@ -402,87 +402,87 @@ div
 
 /*Mobile-Verson #1*/
 
-@media screen and (max-width: 350px) {
+@media screen and (min-width: 2800px) {
 
-    body{
+    body {
         overflow-x: hidden;
-        
+        margin: 0em;
+        padding: 0em;
     }
 
-    img{
+    img {
         max-width: 100%;
+        height: auto;
         overflow-x: hidden;
     }
 
-    #logo{
+    #logo {
         max-width: 100%;
-
+        height: auto;
         overflow-x: hidden;
     }
 
     .titel {
         top: 15px;
-        font-size: 25px;
+        font-size: 35px;
         left: 15px;
     }
 
     #linie {
-        top: 10px;
+        top: 20px;
     }
 
     p {
-        font-size: 18px;
+        font-size: 20px;
         left: 20px;
     }
 
     #materialien {
-        width: 50%;
+        width: auto;
         left: 12px;
     }
 
     #maße {
-        width: 50%;
-        left: 200px;
-        top: 54px;
+        width: auto;
+        left: 50px;
+        top: 130px;
     }
 
     #gewicht {
-        width: 50%;
-        top: 100px;
-        left: 13px;
+        width: auto;
+        top: 130px;
+        left: 88px;
     }
 
     #pflege {
-        width: 50%;
-        top: 23px;
-        left: 200px;
+        width: auto;
+        top: 130px;
+        left: 130px;
     }
 
     div {
-        font-size: 23px;
+        font-size: 33px;
         left: 110px;
-        top: 250px;
+        top: 350px;
     }
 
     .Character {
         display: block;
-        font-size: 13px;
-        left: 40px;
-        top: 300px;
+        font-size: 17px;
+        left: 160px;
+        top: 400px;
     }
 
     #IQ-headline {
-        font-size: 21px;
-        left: 90px;
-        top: 500px;
+        font-size: 35px;
+        left: 790px;
+        top: 530px;
     }
 
     #IQ-bild {
         left: 35px;
-        max-width: 100%;
-        white-space: nowrap;
-        overflow-x: hidden;
-        top: 520px;
+        width: auto;
+        top: 570px;
     }
 
     .couch-headline {
@@ -498,6 +498,7 @@ div
     }
 
     #aufzug {
+        width: auto;
         left: 30px;
         top: 540px;
     }
@@ -509,7 +510,7 @@ div
     }
 
     #aufzählung {
-        width: 107%;
+        width: auto;
         top: 900px;
         left: 30px;
     }
@@ -532,7 +533,7 @@ div
         width: 50%;
     }
 
-    .accordion .accordion-item .accordion-content .accordion-img2{
+    .accordion .accordion-item .accordion-content .accordion-img2 {
         top: 50px;
         width: 42%;
     }
@@ -607,16 +608,17 @@ div
     }
 
 
-    
+
 }
-    
+
 /*Mobile-Verson #2*/
 
 @media screen and (min-width: 350px) and (max-width: 630px) {
 
     body {
         overflow-x: hidden;
-      
+        margin: 0em;
+        padding: 0em;
     }
 
     img {
@@ -740,8 +742,8 @@ div
         width: 50%;
     }
 
-    
-    .accordion .accordion-item .accordion-content .accordion-img2{
+
+    .accordion .accordion-item .accordion-content .accordion-img2 {
         top: 50px;
         width: 42%;
     }
